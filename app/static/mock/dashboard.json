@@ -1,0 +1,37 @@
+{
+  "range": "近 14 天",
+  "generated_at": "2026-11-01T10:05:00+08:00",
+  "total_sessions": 1688,
+  "unmatched_open": 128,
+  "agents_online": 5,
+  "metrics": [
+    { "key": "self_service_rate", "label": "自助解决率", "value": 67.4, "unit": "%", "delta": 2.1, "target": 65, "direction": "up", "hint": "较上周期 +2.1pp" },
+    { "key": "escalation_rate", "label": "转人工率", "value": 32.6, "unit": "%", "delta": -2.1, "target": 35, "direction": "down", "hint": "较上周期 -2.1pp" },
+    { "key": "first_response_p95", "label": "首响 P95", "value": 1.42, "unit": "s", "delta": -0.18, "target": 2.0, "direction": "down", "hint": "较上周期 -0.18s" },
+    { "key": "satisfaction", "label": "满意度", "value": 4.62, "unit": "/5", "delta": 0.08, "target": 4.5, "direction": "up", "hint": "较上周期 +0.08" }
+  ],
+  "trend": [
+    { "date": "2026-10-19", "sessions": 108, "self_service": 61.2, "escalation": 42, "first_response": 1.86, "satisfaction": 4.38 },
+    { "date": "2026-10-20", "sessions": 121, "self_service": 62.5, "escalation": 45, "first_response": 1.78, "satisfaction": 4.41 },
+    { "date": "2026-10-21", "sessions": 116, "self_service": 63.1, "escalation": 43, "first_response": 1.72, "satisfaction": 4.44 },
+    { "date": "2026-10-22", "sessions": 134, "self_service": 61.8, "escalation": 51, "first_response": 1.81, "satisfaction": 4.39 },
+    { "date": "2026-10-23", "sessions": 142, "self_service": 64.3, "escalation": 51, "first_response": 1.66, "satisfaction": 4.47 },
+    { "date": "2026-10-24", "sessions": 88, "self_service": 66.1, "escalation": 30, "first_response": 1.55, "satisfaction": 4.5 },
+    { "date": "2026-10-25", "sessions": 74, "self_service": 67.2, "escalation": 24, "first_response": 1.49, "satisfaction": 4.55 },
+    { "date": "2026-10-26", "sessions": 129, "self_service": 64.9, "escalation": 45, "first_response": 1.63, "satisfaction": 4.46 },
+    { "date": "2026-10-27", "sessions": 138, "self_service": 66.4, "escalation": 46, "first_response": 1.58, "satisfaction": 4.5 },
+    { "date": "2026-10-28", "sessions": 146, "self_service": 67.8, "escalation": 47, "first_response": 1.51, "satisfaction": 4.57 },
+    { "date": "2026-10-29", "sessions": 151, "self_service": 68.2, "escalation": 48, "first_response": 1.47, "satisfaction": 4.59 },
+    { "date": "2026-10-30", "sessions": 157, "self_service": 66.9, "escalation": 52, "first_response": 1.52, "satisfaction": 4.55 },
+    { "date": "2026-10-31", "sessions": 98, "self_service": 69.4, "escalation": 30, "first_response": 1.38, "satisfaction": 4.64 },
+    { "date": "2026-11-01", "sessions": 86, "self_service": 70.1, "escalation": 26, "first_response": 1.33, "satisfaction": 4.68 }
+  ],
+  "negative": [
+    { "id": "fb_001", "session_id": "s_20261031_0179", "customer": "孙倩", "company": "常州瑞泰医疗", "score": 1, "reason": "答非所问", "comment": "问保修范围，机器人一直复读条款，没解决我的问题。", "created_at": "2026-10-31T17:42:00+08:00", "owner": "李婷", "resolved": false },
+    { "id": "fb_002", "session_id": "s_20261031_0164", "customer": "周浩", "company": "嘉兴新锐汽配", "score": 2, "reason": "转人工太慢", "comment": "等了六分钟才有人接，产线停着很着急。", "created_at": "2026-10-31T15:18:00+08:00", "owner": "林晓", "resolved": true },
+    { "id": "fb_003", "session_id": "s_20261030_0198", "customer": "刘敏", "company": "宁波海川模具", "score": 2, "reason": "引用不相关", "comment": "给的手册页码是旧版本的，按步骤操作没效果。", "created_at": "2026-10-30T16:06:00+08:00", "owner": "张伟", "resolved": false },
+    { "id": "fb_004", "session_id": "s_20261030_0171", "customer": "陈雪", "company": "杭州鼎盛包装", "score": 3, "reason": "回答太笼统", "comment": "只说检查滤网，没有告诉我具体在哪个位置。", "created_at": "2026-10-30T13:24:00+08:00", "owner": "李婷", "resolved": true },
+    { "id": "fb_005", "session_id": "s_20261029_0122", "customer": "赵启明", "company": "无锡华工传动", "score": 1, "reason": "重复回答", "comment": "同一个问题问了两遍，两次回答一模一样，像机器人。", "created_at": "2026-10-29T10:52:00+08:00", "owner": "徐磊", "resolved": true },
+    { "id": "fb_006", "session_id": "s_20261028_0087", "customer": "林芳", "company": "台州宏达电气", "score": 2, "reason": "图片未识别", "comment": "上传了报警截图，还是让我描述故障。", "created_at": "2026-10-28T09:16:00+08:00", "owner": "孙悦", "resolved": false }
+  ]
+}

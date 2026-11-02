@@ -1,0 +1,120 @@
+{"qid": "Q001", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q002", "question": "PK-1200 报 A02 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A02", "校准封口温度(设"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q003", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q004", "question": "NC-500 报 E05，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E05", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q005", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q006", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q007", "question": "NC-500 报 E11 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E11", "检查 G 代码与"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q008", "question": "PK-1200 的 A02 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q009", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q010", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q011", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q012", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q013", "question": "NC-500 的 E07 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q014", "question": "PK-1200 报 A02，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A02", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q015", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q016", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q017", "question": "PK-1200 报 A06 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A06", "空载清零并做两点"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q018", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q019", "question": "NC-500 报 E03，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E03", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q020", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q021", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q022", "question": "NC-500 报 E09 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E09", "检查液压油位与滤"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q023", "question": "PK-1200 的 A06 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q024", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q025", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q026", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q027", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q028", "question": "NC-500 的 E05 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q029", "question": "PK-1200 报 A06，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A06", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q030", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q031", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q032", "question": "PK-1200 报 A02 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A02", "校准封口温度(设"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q033", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q034", "question": "NC-500 报 E02，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E02", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q035", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q036", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q037", "question": "NC-500 报 E07 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E07", "检查编码器电缆屏"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q038", "question": "PK-1200 的 A02 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q039", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q040", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q041", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q042", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q043", "question": "NC-500 的 E03 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q044", "question": "PK-1200 报 A02，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A02", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q045", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q046", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q047", "question": "PK-1200 报 A06 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A06", "空载清零并做两点"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q048", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q049", "question": "NC-500 报 E01，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E01", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q050", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q051", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q052", "question": "NC-500 报 E05 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E05", "补充切削液至液位"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q053", "question": "PK-1200 的 A06 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q054", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q055", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q056", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q057", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q058", "question": "NC-500 的 E02 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q059", "question": "PK-1200 报 A06，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A06", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q060", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q061", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q062", "question": "PK-1200 报 A02 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A02", "校准封口温度(设"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q063", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q064", "question": "NC-500 报 E12，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E12", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q065", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q066", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q067", "question": "NC-500 报 E03 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E03", "回参考点后重新对"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q068", "question": "PK-1200 的 A02 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q069", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q070", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q071", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q072", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q073", "question": "NC-500 的 E01 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q074", "question": "PK-1200 报 A02，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A02", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q075", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q076", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q077", "question": "PK-1200 报 A06 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A06", "空载清零并做两点"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q078", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q079", "question": "NC-500 报 E11，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E11", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q080", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q081", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q082", "question": "NC-500 报 E02 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E02", "检查换刀气压(≥"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q083", "question": "PK-1200 的 A06 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q084", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q085", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q086", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q087", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q088", "question": "NC-500 的 E12 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q089", "question": "PK-1200 报 A06，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A06", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q090", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "中"}
+{"qid": "Q091", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q092", "question": "PK-1200 报 A02 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A02", "校准封口温度(设"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q093", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q094", "question": "NC-500 报 E09，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E09", "润滑", "滤网"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q095", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q096", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q097", "question": "NC-500 报 E01 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E01", "检查切削参数与主"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q098", "question": "PK-1200 的 A02 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "易"}
+{"qid": "Q099", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q100", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q101", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q102", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q103", "question": "NC-500 的 E11 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q104", "question": "PK-1200 报 A02，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A02", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q105", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q106", "question": "NC-500 的保修期是多久？", "category": "FAQ直答", "product_model": "NC-500", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q107", "question": "PK-1200 报 A06 怎么处理？", "category": "故障诊断", "product_model": "PK-1200", "expected_keywords": ["A06", "空载清零并做两点"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q108", "question": "CV-800 的 C03 报警在手册第几章？", "category": "表格查询", "product_model": "CV-800", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q109", "question": "NC-500 报 E07，保养时还要注意什么？", "category": "多跳", "product_model": "NC-500", "expected_keywords": ["E07", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q110", "question": "PK-1200 老趴窝是咋回事", "category": "口语化", "product_model": "PK-1200", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}
+{"qid": "Q111", "question": "CV-800 的保修期是多久？", "category": "FAQ直答", "product_model": "CV-800", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q112", "question": "NC-500 报 E12 怎么处理？", "category": "故障诊断", "product_model": "NC-500", "expected_keywords": ["E12", "更换控制柜电池("], "must_cite": true, "difficulty": "难"}
+{"qid": "Q113", "question": "PK-1200 的 A06 报警在手册第几章？", "category": "表格查询", "product_model": "PK-1200", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q114", "question": "CV-800 报 C05，保养时还要注意什么？", "category": "多跳", "product_model": "CV-800", "expected_keywords": ["C05", "润滑", "滤网"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q115", "question": "NC-500 老趴窝是咋回事", "category": "口语化", "product_model": "NC-500", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "易"}
+{"qid": "Q116", "question": "PK-1200 的保修期是多久？", "category": "FAQ直答", "product_model": "PK-1200", "expected_keywords": ["12 个月", "18 个月"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q117", "question": "CV-800 报 C02 怎么处理？", "category": "故障诊断", "product_model": "CV-800", "expected_keywords": ["C02", "更换异响托辊，检"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q118", "question": "NC-500 的 E09 报警在手册第几章？", "category": "表格查询", "product_model": "NC-500", "expected_keywords": ["第 4 章", "报警代码"], "must_cite": true, "difficulty": "中"}
+{"qid": "Q119", "question": "PK-1200 报 A06，保养时还要注意什么？", "category": "多跳", "product_model": "PK-1200", "expected_keywords": ["A06", "润滑", "滤网"], "must_cite": true, "difficulty": "难"}
+{"qid": "Q120", "question": "CV-800 老趴窝是咋回事", "category": "口语化", "product_model": "CV-800", "expected_keywords": ["停机", "过载", "报警"], "must_cite": false, "difficulty": "难"}

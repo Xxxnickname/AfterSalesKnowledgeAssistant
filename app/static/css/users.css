@@ -1,0 +1,39 @@
+/* users.css — 1-8 用户与角色 */
+.users-page { display: flex; flex-direction: column; }
+.users-toolbar { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-5); flex-wrap: wrap; padding: var(--sp-4) var(--sp-5); border-bottom: 1px solid var(--line); }
+.users-toolbar__left, .users-toolbar__right { display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap; }
+.users-search { width: 240px; }
+.users-table td { vertical-align: middle; }
+.users-person { display: flex; align-items: center; gap: var(--sp-3); }
+.users-person__name { font-size: var(--fs-14); font-weight: var(--fw-medium); color: var(--ink-900); }
+.users-person__user { margin-top: 1px; font-family: var(--font-mono); font-size: var(--fs-12); color: var(--ink-400); }
+.users-row--disabled { opacity: .62; }
+.users-actions { display: flex; align-items: center; justify-content: flex-end; gap: 2px; }
+.users-actions .icon-btn { width: 30px; height: 30px; }
+.users-note { display: flex; align-items: flex-start; gap: var(--sp-4); padding: var(--sp-4) var(--sp-5); border-top: 1px solid var(--line); background: var(--surface-2); font-size: var(--fs-12); color: var(--ink-400); }
+.users-note svg { flex: none; color: var(--brand-600); }
+.pwd-box { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-4); padding: var(--sp-4) var(--sp-5); border: 1px dashed var(--line-strong); border-radius: var(--r-lg); background: var(--surface-2); }
+.pwd-box code { font-family: var(--font-mono); font-size: var(--fs-16); font-weight: var(--fw-semibold); color: var(--ink-900); letter-spacing: .04em; }
+.pwd-hint { margin-top: var(--sp-3); font-size: var(--fs-12); color: var(--danger-600); }
+.role-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-5); }
+.role-form .field--wide { grid-column: 1 / -1; }
+.perm-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-3); margin-top: var(--sp-4); }
+.perm-item { display: flex; align-items: flex-start; gap: var(--sp-3); padding: var(--sp-3) var(--sp-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface-2); font-size: var(--fs-12); color: var(--ink-600); }
+.perm-item svg { flex: none; margin-top: 1px; color: var(--success-600); }
+
+@media (max-width: 1180px) {
+  .users-search { width: 200px; }
+}
+@media (max-width: 767px) {
+  .users-toolbar { padding: var(--sp-4); }
+  .users-toolbar__left, .users-toolbar__right { width: 100%; }
+  .users-search { width: 100%; }
+  .role-form { grid-template-columns: minmax(0, 1fr); }
+  .perm-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 1200px) {
+  .users-table { min-width: 0 !important; width: calc(100% - 10px) !important; table-layout: fixed; }
+  .users-table th:first-child, .users-table td:first-child { width: auto; }
+}
+
+

@@ -1,0 +1,151 @@
+/* ==========================================================================
+   tokens.css — 全站唯一颜色/字体/间距/圆角/阴影来源（G1 冻结）
+   禁止在页面 CSS 中直接写十六进制色值；一律引用本文件变量。
+   ========================================================================== */
+:root {
+  color-scheme: light;
+
+  /* 前景反白 */
+  --on-brand: #ffffff;
+
+  /* 品牌色（青绿 · 工业精密感） */
+  --brand-50: #e8f7f5;
+  --brand-100: #c9ece7;
+  --brand-200: #9adcd4;
+  --brand-300: #62c6bc;
+  --brand-400: #2da99e;
+  --brand-500: #128d82;
+  --brand-600: #0b7369;
+  --brand-700: #095c55;
+  --brand-800: #084a45;
+  --brand-900: #063a36;
+
+  /* 墨色（文字与深色导航） */
+  --ink-950: #070d18;
+  --ink-900: #0b1526;
+  --ink-800: #122036;
+  --ink-700: #1e2e47;
+  --ink-600: #33445e;
+  --ink-500: #52637c;
+  --ink-400: #5f6f88;
+  --ink-300: #96a2b8;
+  --ink-200: #c2cad8;
+  --ink-100: #dfe4ec;
+  --ink-50: #eef1f5;
+
+  /* 表面与描边 */
+  --bg: #f2f5f7;
+  --bg-deep: #e9eef2;
+  --surface: #ffffff;
+  --surface-2: #f8fafb;
+  --surface-3: #eff3f6;
+  --surface-inverse: #0b1526;
+  --line: #e2e8ef;
+  --line-strong: #cbd5e1;
+  --line-dark: #243349;
+
+  /* 语义色 */
+  --success-600: #047857;
+  --success-500: #059669;
+  --success-100: #d1fae5;
+  --success-50: #ecfdf5;
+  --warning-600: #b45309;
+  --warning-500: #d97706;
+  --warning-100: #fef3c7;
+  --warning-50: #fffbeb;
+  --danger-600: #b91c1c;
+  --danger-500: #dc2626;
+  --danger-100: #fee2e2;
+  --danger-50: #fef2f2;
+  --info-600: #1d4ed8;
+  --info-500: #2563eb;
+  --info-100: #dbeafe;
+  --info-50: #eff6ff;
+  --star: #d99a06;
+  --star-soft: #fff4d6;
+
+  /* 深色导航 */
+  --nav-bg: #0b1526;
+  --nav-bg-raised: #101e33;
+  --nav-text: #a9b6c9;
+  --nav-text-strong: #f8fafc;
+  --nav-muted: #6f7f96;
+  --nav-hover: #16263d;
+  --nav-active: #0f3b3a;
+  --nav-active-text: #e9fffb;
+
+  /* 字体（全站仅 2 族：中文系统字 + 等宽数字） */
+  --font-sans: "Inter", "Source Han Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  /* 字号阶梯：24 / 18 / 16 / 14 / 12（frontend.md §三） */
+  --fs-24: 24px;
+  --fs-18: 18px;
+  --fs-16: 16px;
+  --fs-14: 14px;
+  --fs-12: 12px;
+  --lh-tight: 1.25;
+  --lh-normal: 1.6;
+  --lh-relaxed: 1.75;
+
+  /* 字重 */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* 间距（4 的倍数） */
+  --sp-1: 2px;
+  --sp-2: 4px;
+  --sp-3: 6px;
+  --sp-4: 8px;
+  --sp-5: 10px;
+  --sp-6: 12px;
+  --sp-7: 14px;
+  --sp-8: 16px;
+  --sp-10: 20px;
+  --sp-12: 24px;
+  --sp-14: 28px;
+  --sp-16: 32px;
+  --sp-20: 40px;
+  --sp-24: 48px;
+  --sp-32: 64px;
+
+  /* 圆角 */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 10px;
+  --r-xl: 12px;
+  --r-2xl: 16px;
+  --r-pill: 999px;
+
+  /* 阴影 */
+  --shadow-xs: 0 1px 2px rgba(11, 21, 38, .05);
+  --shadow-sm: 0 1px 3px rgba(11, 21, 38, .07), 0 1px 2px rgba(11, 21, 38, .04);
+  --shadow-md: 0 6px 16px -4px rgba(11, 21, 38, .12), 0 2px 6px -2px rgba(11, 21, 38, .06);
+  --shadow-lg: 0 18px 40px -12px rgba(11, 21, 38, .22), 0 6px 14px -6px rgba(11, 21, 38, .1);
+  --shadow-pop: 0 24px 64px -16px rgba(7, 13, 24, .34);
+  --focus-ring: 0 0 0 3px rgba(18, 141, 130, .28);
+  --focus-ring-danger: 0 0 0 3px rgba(220, 38, 38, .22);
+
+  /* 动效 */
+  --ease: cubic-bezier(.2, .7, .3, 1);
+  --dur-fast: 120ms;
+  --dur: 180ms;
+  --dur-slow: 260ms;
+
+  /* 层级 */
+  --z-sticky: 10;
+  --z-drawer: 60;
+  --z-modal: 80;
+  --z-toast: 100;
+
+  /* 布局 */
+  --sidebar-w: 236px;
+  --topbar-h: 68px;
+  --content-max: 1560px;
+}
+
+
+

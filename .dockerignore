@@ -1,0 +1,14 @@
+.venv/
+.git/
+data/
+reports/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.pytest_cache/
+.env.prod
+.env.*.local
+backups/
+tmp/
+docs/

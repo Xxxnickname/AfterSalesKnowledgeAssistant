@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0B1526" />
+  <meta name="description" content="恒锐精工设备售后智能客服 — 有据可答，答不了就转人工。" />
+  <title>恒锐精工 · 售后智能客服</title>
+  <link rel="stylesheet" href="./tokens.css?v=20261101d" />
+  <link rel="stylesheet" href="./base.css?v=20261101d" />
+  <link rel="stylesheet" href="./components.css?v=20261101d" />
+  <link rel="stylesheet" href="./app.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/chat.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/workbench.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/unmatched.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/kb.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/dashboard.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/qc.css?v=20261101d" />
+  <link rel="stylesheet" href="./css/users.css?v=20261101d" />
+</head>
+<body>
+  <a class="skip-link" href="#view">跳到主要内容</a>
+
+  <div class="app-shell" id="appShell">
+    <div class="sidebar-scrim" id="sidebarScrim" hidden></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="主导航">
+      <div class="sidebar__brand">
+        <a class="brand" href="#/chat" aria-label="恒锐精工售后智能客服首页">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
+              <rect x="1" y="1" width="30" height="30" rx="9" stroke="currentColor" stroke-width="1.5" opacity=".45"/>
+              <path d="M9 21.5V10.5h5.2c2.6 0 4.3 1.4 4.3 3.6 0 1.6-.8 2.7-2.2 3.2l3.2 4.2h-3.2l-2.7-3.7h-1.9v3.7H9Z" fill="currentColor"/>
+              <circle cx="22.6" cy="10.4" r="2.1" fill="currentColor" opacity=".7"/>
+            </svg>
+          </span>
+          <span class="brand__text">
+            <strong>恒锐精工</strong>
+            <small>售后知识中枢</small>
+          </span>
+        </a>
+        <button class="icon-btn sidebar__close only-mobile" id="sidebarClose" aria-label="关闭导航">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+
+      <nav class="sidebar__nav" id="navRoot">
+        <p class="nav-label">客户服务</p>
+        <a class="nav-item" href="#/chat" data-route="chat">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9.4 9.4 0 0 1-3.4-.6L3 21l1.7-5.1a8.4 8.4 0 1 1 16.3-4.4Z"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01"/></svg>
+          <span>客户聊天窗</span>
+        </a>
+        <a class="nav-item" href="#/workbench" data-route="workbench">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13a8 8 0 0 1 16 0"/><path d="M4 13v4a2 2 0 0 0 2 2h1v-6H5a1 1 0 0 0-1 1ZM20 13v4a2 2 0 0 1-2 2h-1v-6h2a1 1 0 0 1 1 1Z"/><path d="M17 19c0 1.1-1.3 2-3 2h-1"/></svg>
+          <span>坐席工作台</span>
+          <span class="nav-count" id="navQueueCount">6</span>
+        </a>
+
+        <p class="nav-label">知识与质量</p>
+        <a class="nav-item" href="#/unmatched" data-route="unmatched">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="M4 9h16M9 9v10"/><path d="M12.5 12.5h4M12.5 15.5h2.5"/></svg>
+          <span>未命中问题池</span>
+        </a>
+        <a class="nav-item" href="#/kb" data-route="kb">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h9a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4Z"/><path d="M8 4v16M17 8h2a2 2 0 0 1 2 2v10h-4"/><path d="M11 9h3M11 12.5h3"/></svg>
+          <span>知识库管理</span>
+        </a>
+        <a class="nav-item" href="#/dashboard" data-route="dashboard">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+          <span>数据看板</span>
+        </a>
+        <a class="nav-item" href="#/qc" data-route="qc">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.4 3 8.2 7.5 9.5 4.5-1.3 7.5-5.1 7.5-9.5V6L12 3Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <span>会话质检</span>
+        </a>
+
+        <p class="nav-label">系统</p>
+        <a class="nav-item" href="#/users" data-route="users" id="navUsers">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20c.6-3.4 2.8-5.2 5.5-5.2s4.9 1.8 5.5 5.2"/><path d="M16 5.2a3 3 0 0 1 0 5.6M18 20c-.2-2.3-1.2-4-2.8-4.8"/></svg>
+          <span>用户与角色</span>
+          <svg class="nav-lock" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+        </a>
+      </nav>
+
+      <div class="sidebar__footer">
+        <div class="mock-badge"><span class="dot"></span> DEMO 环境 · 本地 Mock</div>
+        <div class="role-switch">
+          <span class="avatar avatar--sm" id="roleAvatar">管</span>
+          <div class="role-switch__meta">
+            <strong id="roleName">陈立</strong>
+            <small id="roleLabel">系统管理员</small>
+          </div>
+          <label class="role-switch__select">
+            <span class="sr-only">切换演示身份</span>
+            <select id="roleSelect" aria-label="切换演示身份">
+              <option value="admin">管理员</option>
+              <option value="agent">坐席</option>
+            </select>
+          </label>
+        </div>
+        <a class="nav-hint" id="permHint" href="#/users">以坐席身份访问 → 验证 403</a>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn only-mobile" id="menuBtn" aria-label="打开导航" aria-controls="sidebar" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+
+        <div class="topbar__title">
+          <p class="crumb" id="crumb">客户服务 / 在线咨询</p>
+          <h1 id="pageTitle">客户聊天窗</h1>
+        </div>
+
+        <div class="topbar__actions">
+          <label class="state-demo" title="评审用：强制切换页面状态">
+            <span>状态</span>
+            <select id="stateDemo" aria-label="切换页面状态">
+              <option value="default">正常</option>
+              <option value="loading">加载中</option>
+              <option value="empty">空数据</option>
+              <option value="error">错误</option>
+              <option value="403">无权限</option>
+            </select>
+          </label>
+          <button class="icon-btn topbar__bell" id="bellBtn" aria-label="通知">
+            <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 1 0-12 0c0 6-2 7-2 7h16s-2-1-2-7"/><path d="M10 19a2.2 2.2 0 0 0 4 0"/></svg>
+            <span class="bell-dot" aria-hidden="true"></span>
+          </button>
+          <span class="env-chip">8001</span>
+        </div>
+      </header>
+
+      <main class="view" id="view" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="toast-root" id="toastRoot" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+
+  <script type="module" src="./js/app.js?v=20261101d"></script>
+</body>
+</html>
+
+
+

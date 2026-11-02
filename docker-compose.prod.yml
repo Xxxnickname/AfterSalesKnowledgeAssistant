@@ -1,0 +1,78 @@
+# 生产部署覆盖配置；仅与 docker-compose.yml 叠加使用。
+# 启动示例：
+# docker compose -p kb --env-file .env.prod -f docker-compose.yml -f docker-compose.prod.yml up -d --no-build
+services:
+  db:
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+    mem_limit: 1g
+
+  redis:
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    mem_limit: 512m
+
+  neo4j:
+    environment:
+      NEO4J_AUTH: ${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD}
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+    mem_limit: 1g
+
+  app:
+    env_file:
+      - .env.prod
+    environment:
+      APP_ENV: prod
+      DEMO_MODE: "false"
+      SEED_DEMO: "false"
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+      REDIS_URL: redis://redis:6379/0
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: ${NEO4J_USER:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD}
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+    mem_limit: 1g
+    cpus: 2.0
+    stop_grace_period: 30s
+    security_opt:
+      - no-new-privileges:true
+
+  worker:
+    env_file:
+      - .env.prod
+    environment:
+      APP_ENV: prod
+      DEMO_MODE: "false"
+      SEED_DEMO: "false"
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+      REDIS_URL: redis://redis:6379/0
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: ${NEO4J_USER:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD}
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    mem_limit: 512m
+    stop_grace_period: 30s
+    security_opt:
+      - no-new-privileges:true
